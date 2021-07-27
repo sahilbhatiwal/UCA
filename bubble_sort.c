@@ -1,6 +1,7 @@
 /*
  * Program to perform bubble sort on 3 different type of inputs to calculate the time taken to perform the sorting 
- *
+ * Compilation: gcc bubble_sort.c
+ * Exicution: ./a.out
  *
  *
  */
