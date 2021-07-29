@@ -5,7 +5,7 @@
  */
 #include<stdio.h>
 int main() {
-    int steps, i = 0, j = 0, k = 0,l = 0, flag = 0;
+    int steps, i = 0, j = 0, l = 0;
     printf("Enter number of steps : ");
     scanf("%d",&steps);
     for(i = 0; i < steps; i++) {
@@ -13,7 +13,7 @@ int main() {
 	    printf(" ");
 	}
         for(j = 0; j <= i; j++) {
-	        printf("# ");
+	    printf("# ");
 	}
 	printf("\n");
     }
