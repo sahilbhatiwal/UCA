@@ -1,6 +1,6 @@
 /*
  * Program to perform selection sort on 3 different type of inputs (Random, sorted, reversly sorted) to calculate the time
-   taken to perform the bubbl:e sort. 
+   taken to perform the selection sort. 
  * Compilation: gcc selection_sort.c
  * Exicution: ./a.out
  * @Sahil Bhatiwal (1910990683), 29-07-2021
