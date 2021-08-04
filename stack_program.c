@@ -4,7 +4,7 @@
  * Exicution: ./a.out
  *
  * @Sahil Bhatiwal (1910990683) , 2- 08- 2021
- * 
+ * Assignment: Day2_coding_Assignment (Quesiton 1);
  *
  */
 #include<stdio.h>
@@ -49,9 +49,10 @@ int main() {
     scanf("%d",&size);
     int arr[size];
     int top = -1;
-    while(querry != 6)
+    while(querry != 7)
     {
-    printf("\n\nEnter:\n1 push\n2 pop\n3 peek\n4 Is empty\n5 Is full\n6 Exit\n Enter the querry:");
+    printf("\n\nEnter:\n1 push\n2 pop\n3 peek\n4 Is empty\n5 Is full");
+    printf("\n6 Print complexity for each program\n7 Exit\n Enter the querry:");
 	scanf("%d",&querry);
 	printf("\n\n");
 	if( querry == 1) {
@@ -80,6 +81,13 @@ int main() {
 	    is_full(top, size);
 	}
 	else if( querry == 6) {
+	    printf("Complexity of push     is O(1)\n");
+	    printf("Complexity of pop      is O(1)\n");
+	    printf("Complexity of peek     is O(1)\n");
+	    printf("Complexity of is_empty is O(1)\n");
+	    printf("Complexity of is_full  is O(1)\n\n");
+	}
+	else if( querry == 7) {
 	    printf("Exit command exicuted\n");
 	}
 	else {
