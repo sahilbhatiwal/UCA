@@ -1,0 +1,27 @@
+Time taken when array had random values          51
+Time taken when array had random values          97
+Time taken when array had random values         182
+Time taken when array had random values         272
+Time taken when array had random values         385
+Time taken when array had random values         524
+Time taken when array had random values         707
+Time taken when array had random values         852
+
+Time taken when array had sorted values           0
+Time taken when array had sorted values           0
+Time taken when array had sorted values           0
+Time taken when array had sorted values           0
+Time taken when array had sorted values           0
+Time taken when array had sorted values           0
+Time taken when array had sorted values           0
+Time taken when array had sorted values           1
+
+Time taken when array had reversely sorted values          85
+Time taken when array had reversely sorted values         192
+Time taken when array had reversely sorted values         354
+Time taken when array had reversely sorted values         554
+Time taken when array had reversely sorted values         766
+Time taken when array had reversely sorted values        1028
+Time taken when array had reversely sorted values        1370
+Time taken when array had reversely sorted values        1703
+

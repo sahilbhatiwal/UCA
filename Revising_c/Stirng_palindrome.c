@@ -10,6 +10,7 @@ int main() {
     char str[100], str1[100];
     scanf("%[^\n]%*c",str1);
     i = 0;
+    int len = 0;
     while( str1[i] != '\0') {
         if((str1[i] >= 'a' && str1[i] <= 'z') || (str1[i] >= 'A' && str1[i] <= 'Z')) {
 	    if(str1[i] >= 'a' && str1[i] <= 'z') {
@@ -21,9 +22,10 @@ int main() {
 	}
 	    i++;
     }
+    len = j;
     str[j] = '\0';
     i = 0;
-    j = strlen(str) - 1;
+    j = len - 1;
     for(i = 0; i <= j / 2; i++) {
 	if( str[i] == str[j - i]) {
 		flag = 1;
